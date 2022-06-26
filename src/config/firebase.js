@@ -9,7 +9,7 @@ firebase.initializeApp(firebaseConfig)
 
 const Firestore = firebase.firestore()
 const Auth = firebase.auth()
-const Functions = firebase.app().functions('europe-west1')
+const Functions = firebase.app().functions('asia-southeast1')
 const Storage = firebase.storage()
 
 export { Firestore, Auth, Functions, Storage }
